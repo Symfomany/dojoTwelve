@@ -4,9 +4,11 @@
 
 The examples below show you how to write function accum:
 
-* accum("ab2cd@@"); // "A-Bb-Ccc-Dddd"
-* accum("RqaE_ty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-* accum("§cwA-t\_\_"); // "C-Ww-Aaa-Tttt"
+```
+ accum("ab2cd@@"); // "A-Bb-Ccc-Dddd"
+ accum("RqaE_ty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+ accum("§cwA-t\_\_"); // "C-Ww-Aaa-Tttt"
+```
 
 _Warning_: The parameter of accum is a string which includes only letters from a..z and A..Z, not numbers or others characters.
 
